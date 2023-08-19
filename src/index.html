@@ -8,7 +8,7 @@
   maximum-scale=5"
     />
 
-    <link rel="icon" href="devchallenges.png" />
+    <link rel="icon" href="assets/devchallenges.png" />
 
     <link
       rel="shortcut icon"
@@ -20,76 +20,51 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Gallery</title>
 
-    <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
+    <main class="main_galeria">
+      <!-- section-foto/perfil -->
+    <figure>
+      <img src="./assets/profilePhoto.png" alt="" class="img-perfil">
+      <div class="detalles-perfil">
+      <h1 class="nombre-usuario">Rodney Cotton</h1>
+      <p class="ubicacion">Helsinki, Finland</p>
     </div>
+    </figure>
+       <!-- section-detalle-perfil -->
+    <div class="detalles-perfil-social">
+      <span class="informacion-perfil">
+        <p>100</p>
+        Posts
+      </span>
+      <span class="informacion-perfil">
+        <p>2,242</p>
+        Followers
+      </span>
+      <span class="informacion-perfil">
+        <p>1,432</p>
+        Following
+      </span>
+    </div>
+       <!-- section-imagenes -->
+       <section class="seccion-imagenes">
+        <div class="primera-imagen">
+      <img src="./assets/photo1.png" alt="" class="img-foto1">
+    </div>
+    <div class="segunda-imagen">
+      <img src="./assets/photo2.png" alt="" class="img-foto2"></div>
+      <div class="tercera-imagen">      
+      <img src="./assets/photo3.png" alt="" class="img-foto3"></div>
+      <div class="cuarta-imagen">   
+      <img src="./assets/photo4.png" alt="" class="img-foto4"></div>
+      <div class="quinta-imagen">   
+      <img src="./assets/photo5.png" alt="" class="img-foto5"></div>
+      <div class="sexta-imagen">   
+      <img src="./assets/photo6.png" alt="" class="img-foto6"></div>
+       </section>
+  </main>
   </body>
 </html>
