@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +9,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
 .main_galeria {
     display: flex;
     flex-direction: column;
@@ -17,8 +19,8 @@ body {
     margin: 30px;
 }
 
-.img-perfil{
-    width:156px;
+.img-perfil {
+    width: 156px;
     border-radius: 16px;
 }
 
@@ -28,6 +30,7 @@ body {
     gap: 8px;
     margin-top: 8px;
 }
+
 .nombre-usuario {
     color: #4E5150;
 }
@@ -55,7 +58,7 @@ body {
     height: 67px;
 }
 
-.informacion-perfil  h3 {
+.informacion-perfil h3 {
     font-weight: bold;
 }
 
@@ -73,37 +76,37 @@ body {
 .imagenes {
     display: grid;
     gap: 30px;
-    grid-template-columns: repeat(3,minmax(0,1fr));
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.imagenes div:nth-child(1) img{
+.imagenes div:nth-child(1) img {
     width: 299px;
     height: 299px;
     border-radius: 5%;
 }
 
-.imagenes div:nth-child(2) img{
+.imagenes div:nth-child(2) img {
     width: 629px;
     height: 299px;
 }
 
-.imagenes div:nth-child(3) img{
+.imagenes div:nth-child(3) img {
     width: 627px;
     height: 299px;
 }
 
-.imagenes div:nth-child(4) img{
+.imagenes div:nth-child(4) img {
     width: 297px;
     height: 630px;
 }
 
-.imagenes div:nth-child(5) img{
+.imagenes div:nth-child(5) img {
     width: 299px;
     height: 299px;
     border-radius: 5%;
 }
 
-.imagenes div:nth-child(6) img{
+.imagenes div:nth-child(6) img {
     width: 299px;
     height: 299px;
     border-radius: 5%;
@@ -126,7 +129,6 @@ footer {
     text-align: center;
     margin: 10px;
     color: #949690;
-
 }
 
 .enlace {
@@ -154,43 +156,59 @@ footer {
         height: 52px;
     }
 
-    .informacion-perfil h3, p {
+    .informacion-perfil h3,
+    p {
         font-size: 12px;
+    }
+
+    .seccion-imagenes {
+        margin: 25px;
+    }
+
+    .seccion-imagenes img {
+        border-radius: 10px;
     }
 
     .imagenes {
         gap: 15px;
     }
-    .imagenes div:nth-child(1) img{
+
+    .imagenes div:nth-child(1) img {
         width: 109.32px;
         height: 109.32px;
         border-radius: 5%;
     }
-    
-    .imagenes div:nth-child(2) img{
+
+    .imagenes div:nth-child(2) img {
         width: 229.98px;
         height: 109.52px;
     }
-    
-    .imagenes div:nth-child(3) img{
+
+    .imagenes div:nth-child(3) img {
         width: 229.25px;
         height: 109.52px;
     }
-    
-    .imagenes div:nth-child(4) img{
+
+    .imagenes div:nth-child(4) img {
         width: 108.59px;
         height: 230.76px;
     }
-    
-    .imagenes div:nth-child(5) img{
+
+    .imagenes div:nth-child(5) img {
         width: 109.32px;
         height: 109.52px;
         border-radius: 5%;
     }
-    
-    .imagenes div:nth-child(6) img{
+
+    .imagenes div:nth-child(6) img {
         width: 109.32px;
         height: 109.52px;
         border-radius: 5%;
     }
+
+    footer {
+        font-size: 12px;
+    }
+
+
 }
