@@ -55,14 +55,14 @@ body {
     height: 67px;
 }
 
-.informacion-perfil  p {
+.informacion-perfil  h3 {
     font-weight: bold;
 }
 
 .seccion-imagenes {
     margin-top: 50px;
     display: grid;
-    grid-gap: 1rem;
+    grid-gap: 30px;
     justify-content: center;
 }
 
@@ -125,7 +125,7 @@ body {
 footer {
     text-align: center;
     margin: 10px;
-    color: #b9bdcfab;
+    color: #949690;
 
 }
 
@@ -133,4 +133,64 @@ footer {
     font-weight: bold;
     text-decoration: none;
     color: #77787c;
+}
+
+@media screen and (max-width: 768px) {
+    .img-perfil {
+        width: 101.76px;
+    }
+
+    .nombre-usuario {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .ubicacion {
+        font-size: 10px;
+    }
+
+    .informacion-perfil {
+        width: 78px;
+        height: 52px;
+    }
+
+    .informacion-perfil h3, p {
+        font-size: 12px;
+    }
+
+    .imagenes {
+        gap: 15px;
+    }
+    .imagenes div:nth-child(1) img{
+        width: 109.32px;
+        height: 109.32px;
+        border-radius: 5%;
+    }
+    
+    .imagenes div:nth-child(2) img{
+        width: 229.98px;
+        height: 109.52px;
+    }
+    
+    .imagenes div:nth-child(3) img{
+        width: 229.25px;
+        height: 109.52px;
+    }
+    
+    .imagenes div:nth-child(4) img{
+        width: 108.59px;
+        height: 230.76px;
+    }
+    
+    .imagenes div:nth-child(5) img{
+        width: 109.32px;
+        height: 109.52px;
+        border-radius: 5%;
+    }
+    
+    .imagenes div:nth-child(6) img{
+        width: 109.32px;
+        height: 109.52px;
+        border-radius: 5%;
+    }
 }
