@@ -61,14 +61,44 @@ body {
 
 .seccion-imagenes {
     margin-top: 50px;
+    width: 24rem;
     display: grid;
-    grid-auto-rows: 200px;
-    gap: 1rem;
-    grid-auto-flow: row dense;
-    grid-template-columns: repeat(6, 1fr);
-
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    grid-gap: 1rem;
+    justify-content: center;
 }
 
 .seccion-imagenes img {
     border-radius: 5%;
+}
+
+
+.imagenes div:nth-child(1) img{
+    width: 299px;
+    height: 299px;
+}
+
+.imagenes div:nth-child(2) img{
+    width: 629px;
+    height: 299px;
+}
+
+.imagenes div:nth-child(3) img{
+    width: 627px;
+    height: 299px;
+}
+
+.imagenes div:nth-child(4) img{
+    width: 297px;
+    height: 630px;
+}
+
+.imagenes div:nth-child(5) img{
+    width: 299px;
+    height: 299px;
+}
+
+.imagenes div:nth-child(6) img{
+    width: 299px;
+    height: 299px;
 }
