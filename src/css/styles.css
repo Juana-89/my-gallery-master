@@ -61,21 +61,25 @@ body {
 
 .seccion-imagenes {
     margin-top: 50px;
-    width: 24rem;
     display: grid;
-    grid-template-columns: repeat(3,minmax(0,1fr));
     grid-gap: 1rem;
     justify-content: center;
 }
 
 .seccion-imagenes img {
-    border-radius: 5%;
+    border-radius: 20px;
 }
 
+.imagenes {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+}
 
 .imagenes div:nth-child(1) img{
     width: 299px;
     height: 299px;
+    border-radius: 5%;
 }
 
 .imagenes div:nth-child(2) img{
@@ -96,9 +100,37 @@ body {
 .imagenes div:nth-child(5) img{
     width: 299px;
     height: 299px;
+    border-radius: 5%;
 }
 
 .imagenes div:nth-child(6) img{
     width: 299px;
     height: 299px;
+    border-radius: 5%;
+}
+
+.segunda-imagen {
+    display: grid;
+    grid-column: span 2/span 2;
+}
+
+.tercera-imagen {
+    grid-column: span 2;
+}
+
+.cuarta-imagen {
+    grid-row: span 2;
+}
+
+footer {
+    text-align: center;
+    margin: 10px;
+    color: #b9bdcfab;
+
+}
+
+.enlace {
+    font-weight: bold;
+    text-decoration: none;
+    color: #77787c;
 }
